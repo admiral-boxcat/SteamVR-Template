@@ -1,4 +1,6 @@
-Unreal Engine 4 – Steam VR Template 
+Unreal Engine 4 – Steam VR Template
+
+Instruction guide found in the onedrive, or direct link at https://onedrive.live.com/redir?resi...int=file%2cpdf 
 
 The goal of this template is to put together a noob-proof SteamVR pawn to drop in your scene. However, one size for all solutions will not answer to all specific implementations, but it can gives you a head start. The template will be updated regularly with Unreal forum contributors suggestions. 
 My eternal thanks to (but not only) @mitchemmc for input maps and controllers mapping and @PenguinTD for amongst many functions , teleportation method #2 and Ultraman.
