@@ -1,4 +1,4 @@
-Unreal Engine 4 – Steam VR Template
+#Unreal Engine 4 – Steam VR Template
 
 Instruction guide found in the onedrive, or direct link at https://onedrive.live.com/redir?resid=6283336A7C9CA810!6599&authkey=!AE14ZNZ0l_7195Y&ithint=file%2cpdf 
 
@@ -6,7 +6,7 @@ The goal of this template is to put together a noob-proof SteamVR pawn to drop i
 
 My eternal thanks to (but not only) [@mitchemmc](https://forums.unrealengine.com/member.php?u=12245) for input maps and controllers mapping and [@PenguinTD](https://forums.unrealengine.com/member.php?u=3201) for amongst many functions , teleportation method #2 and Ultraman.
 
-Thanks to @mordentral for the grabbing fantastic plugin.
+Thanks to [@mordentral](https://forums.unrealengine.com/member.php?u=4285) for the grabbing fantastic plugin.
 
 All assets are whether homemade, from the public domain or from Epic demos (you can use them freely in UE4 projects).
 I remind everyone that any contribution is welcome. The commercial/fun value of VR projects is definitively not on who can use the Vive, who cannot. It's in the whole experience, the universe you are creating, the feeling, the originality and the user experience.
@@ -16,7 +16,7 @@ Mat, at Proteus VR
 
 *Version 1.9 – UE4.11.2: May 12, 2016*
 
-1.	Features
+#1.	Features
 
 *	Animated triggers in both controllers
 *	Map of all buttons/trackpad on controllers
@@ -44,11 +44,13 @@ Mat, at Proteus VR
 *	Selectable controllers skins & opacity
 *	Select alternate meshes for controllers
 
-*2.	Setup*
+#*2.	Setup*
 
 Files can be found at [OneDrive](https://onedrive.live.com/redir?resid=6283336A7C9CA810!6527&authkey=!AJMU7UC1E0IlaGc&ithint=folder%2czip)
 
 GitHub version at https://github.com/ProteusVR/SteamVR-Template (you need to be logged to Github to open the link)
 
-*To install as a template*, just unzip into the appropriate templates directory like C:\Program Files\Unreal Engine[Version]\Templates for launcher version or[ForkLocation]\UE4\Templates for source version. Launch a new project, and you'll find it in the blueprint section.
-*To install as a project file*, unzip in your usual projects folder. Then, delete the file SteamVR_x-x/Config/TemplateDefs.ini and you’re ready to go.
+## *To install as a template*
+Just unzip into the appropriate templates directory like C:\Program Files\Unreal Engine[Version]\Templates for launcher version or[ForkLocation]\UE4\Templates for source version. Launch a new project, and you'll find it in the blueprint section.
+## *To install as a project file*
+Unzip in your usual projects folder. Then, delete the file SteamVR_x-x/Config/TemplateDefs.ini and you’re ready to go.
