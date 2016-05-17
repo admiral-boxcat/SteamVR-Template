@@ -16,7 +16,7 @@ Mat, at Proteus VR
 
 *Version 1.9 – UE4.11.2: May 12, 2016*
 
-#1.	Features
+# Features
 
 *	Animated triggers in both controllers
 *	Map of all buttons/trackpad on controllers
@@ -44,13 +44,26 @@ Mat, at Proteus VR
 *	Selectable controllers skins & opacity
 *	Select alternate meshes for controllers
 
-#*2.	Setup*
+# Setup
 
 Files can be found at [OneDrive](https://onedrive.live.com/redir?resid=6283336A7C9CA810!6527&authkey=!AJMU7UC1E0IlaGc&ithint=folder%2czip)
 
 GitHub version at https://github.com/ProteusVR/SteamVR-Template (you need to be logged to Github to open the link)
 
 ## *To install as a template*
-Just unzip into the appropriate templates directory like C:\Program Files\Unreal Engine[Version]\Templates for launcher version or[ForkLocation]\UE4\Templates for source version. Launch a new project, and you'll find it in the blueprint section.
+Just unzip into the appropriate templates directory like `C:\Program Files\Unreal Engine[Version]\Templates` for launcher version or`[ForkLocation]\UE4\Templates` for source version. Launch a new project, and you'll find it in the blueprint section.
 ## *To install as a project file*
-Unzip in your usual projects folder. Then, delete the file SteamVR_x-x/Config/TemplateDefs.ini and you’re ready to go.
+Unzip in your usual projects folder. Then, delete the file `SteamVR_x-x/Config/TemplateDefs.ini` and you’re ready to go.
+
+# Known bugs (will be fixed in 1.10)
+
+* Lightsaber: on/off left hand; glowing light same color as blade
+* Teleport: Adjustable "safe" value to teleport on uneven surfaces
+* Grab function: drop problem when both hands are grabbing objects at the same time
+* Vehicle: Vehicle will rotate with controller input
+* Chaperone bounds will spawn meshes instead of particles, retriggerable
+
+#Next new features of 1.10:
+* Teleport/Exit matinee platform
+* Penguin's TD menus
+* Rotate playground in teleportation
